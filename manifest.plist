@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>assets</key>
+			<array>
+				<dict>
+					<key>kind</key>
+					<string>software-package</string>
+					<key>url</key>
+					<string>https://github.com/chenailuo/plist2/blob/master/btcdoApp.ipa</string>  //把"https://.ipa"换成你自己的ipa包的地址。让后台系统做做一个上传功能，生成一个可访问下载的链接。本demo暂时把包放在了github网站，如果后台还没有做这个功能，你也可以先把.ipa包传到github上，上传后把地址替换上
+				</dict>
+			</array>
+			<key>metadata</key>
+			<dict>
+				<key>bundle-identifier</key>
+				<string>qihang.purbull.app</string> //”qihang.purbull.app“换成你的bundleId
+				<key>bundle-version</key>   
+				<string>1.0.0</string>    //换成你的更新版本号
+				<key>kind</key>
+				<string>software</string>
+				<key>title</key>
+				<string>EasyBtc</string>  //换成你的aPP名字，替换完后我的注释都可以删掉
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
